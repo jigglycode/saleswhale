@@ -1,0 +1,83 @@
+body {
+  padding: 10px 25px;
+}
+
+.saleswhale-logo {
+  width: 62%;
+}
+
+.section {
+  margin-top: 18px;
+}
+
+.header-image {
+  background-image: url(assets/Vector.png);
+  
+  width: 268px;
+  height: 296px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+.above-the-fold > h1 {
+  height: 108px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100%;
+  color: #002240;
+}
+
+.header-text-container {
+}
+
+.main-text {
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #002240;
+
+}
+
+.mission > h1 {
+  font-size: 28px;
+}
+
+.culture-text {
+  color: #537089;
+  margin-top: 5px;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.culture-image {
+  width: 56px;
+  height: 56px;
+}
+
+.culture-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.join-button {
+  background: #0688FA;
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+  color: White;
+  font-size: 15px;
+  font-weight: bold;
+}
