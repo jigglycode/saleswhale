@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <nav class="sales-nav">
+    <nav class="section sales-nav">
         <img class="saleswhale-logo" src="assets/ SWFull Color.png">
     </nav>
     <div class="section above-the-fold">
@@ -38,21 +38,21 @@
             At Saleswhale, we encourage everyone to grow and innovate, while having fun in the process.
         </p>
         <div class="culture-container">
-            <div>
+            <div class="culture-info">
                 <img class="culture-image" src="assets/you_glasses 1.png">
                 <h3>Building for the future</h3>
                 <p class="culture-text">
                     We always challenge the status quo and work hard innovating on a product that not only works, but changes the game for our users. 
                 </p>
             </div>
-            <div>
+            <div class="culture-info">
                 <img class="culture-image" src="assets/you_glasses 1.png">
                 <h3>Promoting trust & transparency</h3>
                 <p class="culture-text">
                     We remain completely open, honest and transparent with everyone. This has allowed us to build strong relationships with each other.
                 </p>
             </div>
-            <div>
+            <div class="culture-info">
                 <img class="culture-image" src="assets/you_glasses 1.png">
                 <h3>Acheiving our very best</h3>
                 <p class="culture-text">
@@ -60,15 +60,19 @@
                 </p>
             </div>
         </div>
-        <p>
-            If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!
-        </p>
-        <button class="join-button">
-            Join the Team
-        </button>
+        <div class="text-container">
+            <p class="culture-text-2">
+                If you are excited by our vision of the future, and want to solve meaningful problems, talk to us!
+            </p>
+            <button class="join button">
+                Join the Team
+            </button>
+        </div>
+        <br>
+        <br>
     </div>
     <div class="section timeline">
-        <h1>Our Progress</h1>
+        <h1  class="center">Our Progress</h1>
         <div class="line"></div>
         <div class="progress-container">
             <div class="timeline-container">
@@ -99,49 +103,57 @@
         </div>
     </div>
     <div class="section offices">
-        <h1>Our Offices</h1>
-        <div class="infocard-container">
-            <img src="">
-            <h1>Singapore</h1>
-            <p>
-                155B Telok Ayer Street
-                Singapore, 068611
-            </p>
-        </div>
-        <div class="infocard-container">
-            <img src="">
-            <h1>Washington DC</h1>
-            <p>
-                1701 Rhode Island Ave NW
-                Washington, DC 20036
-            </p>
+        <h1  class="center">Our Offices</h1>
+        <div class="info-flex">
+            <div class="infocard-container office-card">
+                <img src="assets/sinon 3.png">
+                <h1>Singapore</h1>
+                <p>
+                    155B Telok Ayer Street
+                    Singapore, 068611
+                </p>
+            </div>
+            <div class="infocard-container office-card">
+                <img src="assets/sinon 3.png">
+                <h1>Washington DC</h1>
+                <p>
+                    1701 Rhode Island Ave NW
+                    Washington, DC 20036
+                </p>
+            </div>
         </div>
     </div>
     <div class="section investors">
-        <h1>Our Investors</h1>
-        <div class="infocard-container">
-            <img src=""" alt="">
-        </div>
-        <div class="infocard-container">
-            <img src=""" alt="">
-        </div>
-        <div class="infocard-container">
-            <img src=""" alt="">
-        </div>
-        <div class="infocard-container">
-            <img src=""" alt="">
+        <h1  class="center">Our Investors</h1>
+        <div class="info-flex">
+            <div class="infocard-container">
+                <img src="assets/YC logo 2.png" class="investor-logo">
+            </div>
+            <div class="infocard-container">
+                <img src="assets/MHV-logo 2.png" class="investor-logo">
+            </div>
+            <div class="infocard-container">
+                <img src="assets/STRIVE_logo 2.png" class="investor-logo">
+            </div>
+            <div class="infocard-container">
+                <img src="assets/wavemaker-350 2.png" class="investor-logo">
+            </div>
         </div>
     </div>
     <div class="section demo">
-        <h1>See the future</h1>
-        <button>Get a Demo</button>
-        <button>Read use cases</button>
+        <div class="vector-blue"></div>
+        <h1 class="center white-font">See the future</h1>
+        <div class="button-container">
+            <button class="demob button">Get a Demo</button>
+            <button class="cases button">Read use cases</button>
+        </div>
     </div>
     <div class="section links">
-        <img class="saleswhale-logo" src="assets/ SWFull Color.png">
+        
+        <img class="footer-logo" src="assets/ SWFull Color.png">
         <div class="footer-info-container">
             <div class="links-container">
-                <h1>Why Saleswhale</h1>
+                <h5>Why Saleswhale</h5>
                 <a href="">Collaborative Intelligence</a>
                 <br>
                 <a href=""> AI Assistant Capabilities </a>
@@ -155,7 +167,7 @@
                 <a href=""> Use Case - Events </a>
             </div>
             <div class="links-container">
-                <h1>Product</h1>
+                <h5>Product</h5>
                 <a href=""> AI Conversations </a>
                 <br>
                 <a href=""> Lead Enrichment </a>
@@ -165,7 +177,7 @@
                 <a href=""> Workflow Integration </a>
             </div>
             <div class="links-container">
-                <h1>Company</h1>
+                <h5>Company</h5>
                 <a href=""> About Us </a>
                 <br>
                 <a href=""> Blog </a>
@@ -178,25 +190,32 @@
                 <br>
             </div>
             <div class="links-container">
-                <h1>Contact</h1>
-                <a href="">Collaborative Intelligence</a>
-                <h1>US Office</h1>
-                <p>1701 Rhode Island Ave NW Washington, DC 20036</p>
-                <h1>Singapore Office</h1>
-                <p>155B Telok Ayer Street Singapore, 068611</p>
+                <h5>Contact</h5>
+                <a href="">hello@saleswhale.com</a>
+                <br>
+                <h6> US Office</h6>
+                <p class="address">1701 Rhode Island Ave NW Washington, DC 20036</p>
+                <h6>Singapore Office</h6>
+                <p class="address">155B Telok Ayer Street Singapore, 068611</p>
             </div>
         </div>
     </div>
     <footer class="sales-footer">
-        <div class="logo-container">
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
-            <a href=""><img src="" alt=""></a>
+        <div class="logo-copy-container">
+            <div class="logo-container">
+                <a href=""><img src="assets/Vector-2.png" class="social-logo"></a>
+                <a href=""><img src="assets/Vector-3.png" class="social-logo"></a>
+                <a href=""><img src="assets/Vector-4.png" class="social-logo"></a>
+            </div>
+            <div>
+                <div class="privacy-terms-container">
+                    <h5>Privacy</h5>
+                    <h5>Terms</h5>
+                </div>
+                <p class="copyright">© 2020 Saleswhale, Inc. All rights reserved.</p>
+            </div>
         </div>
-        <h5>Privacy</h5>
-        <h5>Terms</h5>
-        <p>copyright 2020 Saleswhale, Inc. All Rights reserved.</p>
-        <img src="" alt="">
+        <div class="footer-image">
     </footer>
 </body>
 

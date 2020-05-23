@@ -28,6 +28,7 @@ dl,
 dd {
   margin: 0;
   font-family: sans-serif;
+  color: #002240;
 
 }
 
@@ -48,6 +49,8 @@ ol[class] {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  text-decoration: none;
+  color: #002240;
 }
 
 /* Make images easier to work with */
