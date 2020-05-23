@@ -1,1 +1,1 @@
-# saleswhale
+# saleswhale mock website design homework
